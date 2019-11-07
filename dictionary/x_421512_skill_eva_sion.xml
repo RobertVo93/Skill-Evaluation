@@ -5,9 +5,9 @@
         <element label="Level" max_length="32" name="level" reference="x_421512_skill_eva_level" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
-        <element label="Score" max_length="40" name="score" type="integer"/>
+        <element display="true" label="Score" max_length="40" name="score" type="integer"/>
         <element label="State" max_length="20" name="state" type="string"/>
-        <element display="true" label="Valid" max_length="40" name="valid" type="boolean"/>
+        <element label="Valid" max_length="40" name="valid" type="boolean"/>
         <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
         <index name="index">
             <element name="level"/>

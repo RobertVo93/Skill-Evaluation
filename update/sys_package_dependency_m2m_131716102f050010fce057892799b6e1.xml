@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">de189e572f300010fce057892799b645</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-07 09:39:56</sys_created_on>
+        <sys_id>131716102f050010fce057892799b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Skill Evaluation" source="x_421512_skill_eva">70c501942f054010fce057892799b658</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-07 09:39:56</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
