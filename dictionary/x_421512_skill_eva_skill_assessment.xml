@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_421512_skill_eva_skill_assessment" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Proficiency level" max_length="1000" name="proficiency_level" type="string"/>
+        <element label="Skill" max_length="32" name="skill" reference="x_421512_skill_eva_skill" type="reference"/>
+        <element display="true" label="Submission" max_length="32" name="submission" reference="x_421512_skill_eva_sion" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>
